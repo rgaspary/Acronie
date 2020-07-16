@@ -1,3 +1,8 @@
+# Acronie 🤔
+
+A fun little tool that tries to guess what an acronym stands for.
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
