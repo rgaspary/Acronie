@@ -29,7 +29,7 @@ function App() {
   function searchAcronym(e) {
     e.preventDefault();
 
-    const apiUrl = 'http://api.datamuse.com/words?sp=';
+    const apiUrl = 'https://api.datamuse.com/words?sp=';
 
     const resultContainer = document.querySelector('.App-result');
     resultContainer.innerHTML = '';
