@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0afa285a1f917c16599ced7e05aaa149",
+    "revision": "37cfe12fdad6a5aefdb442c781eb2f09",
     "url": "/Acronie/index.html"
   },
   {
-    "revision": "1e1725df37ac26965cbf",
+    "revision": "2767e3ea5bc2701edcf8",
     "url": "/Acronie/static/css/main.7bd6ed9c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Acronie/static/js/2.edba8ddd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e1725df37ac26965cbf",
-    "url": "/Acronie/static/js/main.2a5b6c3d.chunk.js"
+    "revision": "2767e3ea5bc2701edcf8",
+    "url": "/Acronie/static/js/main.675a5726.chunk.js"
   },
   {
     "revision": "84c37798d92e24017953",
