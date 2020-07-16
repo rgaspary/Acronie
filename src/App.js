@@ -58,8 +58,7 @@ function App() {
           }
         )
       });
-      console.log(solution);
-      setTimeout(() => { renderResults(solution); }, 100);
+      setTimeout(() => { renderResults(solution); }, 1000);
       resultContainer.classList.remove('hidden');
     }
   }
