@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #172121;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "Label Field" "Button Button";
+  row-gap: 20px;
+  width: 300px;
+}
+
+.App-form__label {
+  grid-area: Label;
+}
+
+.App-form__field {
+  grid-area: Field;
+}
+
+.App-form__submit {
+  grid-area: Button;
+  justify-self: center;
+}
+
+.App-result {
+  border: 1px solid #E5D0CC;
+  border-radius: 5px;
+  background-color: #444554;
+  margin-top: 20px;
+}
+
+.App-result.hidden {
+  display: none;
+}
+
+.App-result__container {
+  margin: 0;
+  padding: 10px 15px 15px;
+}
+
+.App-result__item {
+  list-style: none;
+  text-align: left;
+}
+
+.App-result__item::first-letter {
+  color: #ff0000;
+  font-weight: 700;
+}
